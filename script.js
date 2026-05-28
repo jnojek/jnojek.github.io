@@ -28,14 +28,14 @@ const agentBuilds = [
     tools: ["Docs", "Files", "Vector search"],
   },
   {
-    name: "Flight Data Reporting Agent",
+    name: "Operational Reporting Agent",
     category: "Operations",
     description:
       "Collects recurring operational data, checks anomalies, drafts summaries, and prepares decision-ready reporting notes.",
     tools: ["Python", "Databases", "Dashboards"],
   },
   {
-    name: "Bill of Materials Reconciliation Agent",
+    name: "Records Reconciliation Agent",
     category: "Operations",
     description:
       "Compares source lists, flags mismatches, drafts resolution notes, and reduces manual reconciliation work.",
