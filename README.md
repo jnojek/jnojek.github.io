@@ -1,4 +1,4 @@
-# James Nojek Applied AI Site
+# SteadyState Systems Site
 
 Static portfolio site for applied AI systems, workflow automation, and agent-style build examples.
 
