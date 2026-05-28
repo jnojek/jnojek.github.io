@@ -68,7 +68,7 @@ function renderAgentBuilds() {
         <article class="agent-card">
           <div class="agent-topline">
             <span class="agent-category">${agent.category}</span>
-            <span class="agent-badge">Provider-ready</span>
+            <span class="agent-badge">Workflow-ready</span>
           </div>
           <h3>${agent.name}</h3>
           <p>${agent.description}</p>

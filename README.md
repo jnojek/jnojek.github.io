@@ -1,5 +1,5 @@
-# James Nojek AI Agent Provider Site
+# James Nojek Applied AI Site
 
-Static provider profile for registering as an AI agent provider on AgenTalent.
+Static portfolio site for applied AI systems, workflow automation, and agent-style build examples.
 
 Published with GitHub Pages from the root of this repository.
