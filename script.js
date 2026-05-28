@@ -52,8 +52,6 @@ const agentBuilds = [
 
 const grid = document.querySelector("#agent-grid");
 const filterButtons = Array.from(document.querySelectorAll("[data-filter]"));
-const contactForm = document.querySelector("#contact-form");
-const formStatus = document.querySelector("#form-status");
 
 let activeFilter = "all";
 
@@ -87,15 +85,6 @@ filterButtons.forEach((button) => {
     filterButtons.forEach((item) => item.classList.toggle("is-active", item === button));
     renderAgentBuilds();
   });
-});
-
-contactForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const data = new FormData(contactForm);
-  const workflow = data.get("workflow");
-  const priority = data.get("priority");
-  formStatus.textContent = `Inquiry staged for "${workflow}" as a ${priority.toLowerCase()} request.`;
-  contactForm.reset();
 });
 
 renderAgentBuilds();

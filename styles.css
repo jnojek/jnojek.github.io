@@ -475,7 +475,7 @@ select {
   line-height: 1.7;
 }
 
-.contact-form {
+.contact-card {
   display: grid;
   gap: 16px;
   padding: 24px;
@@ -485,41 +485,39 @@ select {
   border-radius: 8px;
 }
 
-.form-field {
+.contact-card div {
   display: grid;
   gap: 7px;
 }
 
-.contact-form label {
+.contact-card span {
   color: #453f39;
+  font-size: 0.78rem;
   font-weight: 750;
+  text-transform: uppercase;
 }
 
-.contact-form input,
-.contact-form select {
-  min-height: 48px;
-  padding: 0 12px;
-  color: var(--ink);
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 8px;
+.contact-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
 }
 
-.contact-form button {
-  min-height: 50px;
-  color: #fff;
-  background: var(--green-dark);
-  border: 0;
-  border-radius: 8px;
-  cursor: pointer;
+.contact-card a:not(.contact-action) {
+  color: var(--green-dark);
+  font-size: 1.15rem;
   font-weight: 850;
 }
 
-.form-status {
-  min-height: 24px;
-  margin: 0;
-  color: var(--green-dark);
-  line-height: 1.4;
+.contact-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  color: #fff;
+  background: var(--green-dark);
+  border-radius: 8px;
+  font-weight: 850;
 }
 
 .site-footer {
@@ -658,7 +656,7 @@ select {
   .skill-grid article,
   .agent-card,
   .timeline article,
-  .contact-form {
+  .contact-card {
     padding: 18px;
   }
 
